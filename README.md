@@ -1,36 +1,12 @@
-# zshan-devops-project-opentelemetry
+Project Overview
+This project simulates a real-world e-commerce platform built on a multi-language microservices architecture. It demonstrates full DevOps lifecycle management of heterogeneous services — including Java, Python, and Node.js applications — from containerization to deployment and observability.
 
-A comprehensive DevOps project demonstrating end-to-end observability using **OpenTelemetry**, deployed on **AWS** with **Kubernetes (EKS)**, **Terraform**, and **CI/CD pipelines**.
+Key focus areas:
 
-Built and maintained by **Zeeshan Aslam** as part of hands-on learning and real-world DevOps implementation.
-
-## Overview
-
-This project showcases:
-- Distributed tracing with **OpenTelemetry Collector**
-- Metrics and logs collection from microservices
-- Infrastructure provisioning via **Terraform (AWS)**
-- Deployment on **Amazon EKS**
-- CI/CD automation using **GitHub Actions** (or Jenkins/GitLab CI — customize as needed)
-- Cost-optimized, secure, and scalable cloud architecture
-
-Ideal for DevOps engineers exploring observability, cloud automation, and modern application monitoring.
-
-## Tech Stack
-
-- **Observability**: OpenTelemetry, Prometheus, Jaeger (or Tempo), Grafana
-- **Cloud**: AWS (EKS, EC2, ECR, IAM, VPC)
-- **IaC**: Terraform
-- **Containerization**: Docker
-- **Orchestration**: Kubernetes (EKS)
-- **CI/CD**: GitHub Actions / Jenkins / GitLab CI (configurable)
-
-## Project Structure
-
-├── infrastructure/ # Terraform modules for AWS provisioning
-├── k8s/ # Kubernetes manifests (EKS deployments)
-├── otel-config/ # OpenTelemetry Collector configurations
-├── apps/ # Sample instrumented microservices (if included)
-├── test/ # Tracetesting and validation scripts
-├── .github/workflows/ # CI/CD pipelines (optional)
-└── README.md
+Containerization of polyglot microservices using Docker
+Infrastructure as Code (IaC) with Terraform to provision AWS resources (EKS, VPC, IAM, etc.)
+Orchestration on Amazon EKS with Kubernetes manifests
+End-to-end observability using OpenTelemetry Collector, Prometheus, Grafana, and Jaeger
+CI/CD automation (via GitHub Actions, GitLab CI, or Jenkins) tailored per language stack
+Realistic service-to-service communication and traffic flow modeling
+This hands-on project is designed to mirror production-grade cloud-native systems, giving DevOps engineers practical experience in managing complex, scalable, and observable microservice environments on AWS.
