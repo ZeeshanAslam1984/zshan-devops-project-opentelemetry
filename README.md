@@ -1,4 +1,5 @@
 Project Overview
+
 This project simulates a real-world e-commerce platform built on a multi-language microservices architecture. It demonstrates full DevOps lifecycle management of heterogeneous services — including Java, Python, and Node.js applications — from containerization to deployment and observability.
 
 Key focus areas:
